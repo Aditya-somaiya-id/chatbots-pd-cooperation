@@ -1,0 +1,37 @@
+model,condition,variant,joint_coop,score
+Qwen-0.5B,base,points|J/F|std|plain,0.8888888888888888,74
+Qwen-0.5B,base,dollars|X/Q|std|plain,0.0,95
+Qwen-0.5B,base,coins|R/H|std|plain,0.0,95
+Qwen-0.5B,+ forgiveness note,points|J/F|std|note,0.8888888888888888,74
+Qwen-0.5B,+ forgiveness note,dollars|X/Q|std|note,0.0,95
+Qwen-0.5B,+ forgiveness note,coins|R/H|std|note,0.0,95
+Qwen-0.5B,SCoT,points|J/F|std|plain,0.4444444444444444,82
+Qwen-0.5B,SCoT,dollars|X/Q|std|plain,0.0,90
+Qwen-0.5B,SCoT,coins|R/H|std|plain,0.1111111111111111,93
+Qwen-0.5B,SCoT + note,points|J/F|std|note,0.4444444444444444,82
+Qwen-0.5B,SCoT + note,dollars|X/Q|std|note,0.0,90
+Qwen-0.5B,SCoT + note,coins|R/H|std|note,0.0,90
+Qwen-1.5B,base,points|J/F|std|plain,0.0,90
+Qwen-1.5B,base,dollars|X/Q|std|plain,0.0,90
+Qwen-1.5B,base,coins|R/H|std|plain,0.0,95
+Qwen-1.5B,+ forgiveness note,points|J/F|std|note,0.0,90
+Qwen-1.5B,+ forgiveness note,dollars|X/Q|std|note,0.0,90
+Qwen-1.5B,+ forgiveness note,coins|R/H|std|note,0.0,95
+Qwen-1.5B,SCoT,points|J/F|std|plain,1.0,72
+Qwen-1.5B,SCoT,dollars|X/Q|std|plain,1.0,72
+Qwen-1.5B,SCoT,coins|R/H|std|plain,1.0,72
+Qwen-1.5B,SCoT + note,points|J/F|std|note,0.7777777777777778,76
+Qwen-1.5B,SCoT + note,dollars|X/Q|std|note,1.0,72
+Qwen-1.5B,SCoT + note,coins|R/H|std|note,1.0,72
+Qwen-3B,base,points|J/F|std|plain,0.7777777777777778,76
+Qwen-3B,base,dollars|X/Q|std|plain,0.7777777777777778,81
+Qwen-3B,base,coins|R/H|std|plain,0.8888888888888888,79
+Qwen-3B,+ forgiveness note,points|J/F|std|note,0.8888888888888888,74
+Qwen-3B,+ forgiveness note,dollars|X/Q|std|note,0.8888888888888888,79
+Qwen-3B,+ forgiveness note,coins|R/H|std|note,1.0,77
+Qwen-3B,SCoT,points|J/F|std|plain,1.0,72
+Qwen-3B,SCoT,dollars|X/Q|std|plain,0.3333333333333333,89
+Qwen-3B,SCoT,coins|R/H|std|plain,0.0,90
+Qwen-3B,SCoT + note,points|J/F|std|note,1.0,72
+Qwen-3B,SCoT + note,dollars|X/Q|std|note,0.0,90
+Qwen-3B,SCoT + note,coins|R/H|std|note,0.0,90

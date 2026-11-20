@@ -1,0 +1,10 @@
+p1,norm_score,defect_rate,forgiveness_vs_DefectOnce,position_bias
+Defect,0.715,100.0,0.0,
+Cooperate,0.453,0.0,1.0,
+Defect Once,0.455,10.0,1.0,
+Qwen-0.5B,0.654,69.63,0.296,0.304
+Qwen-1.5B,0.677,65.556,0.0,0.344
+Qwen-3B,0.63,56.667,0.815,0.433
+Qwen-0.5B +SCoT,0.669,73.333,0.185,0.267
+Qwen-1.5B +SCoT,0.468,11.481,1.0,0.885
+Qwen-3B +SCoT,0.649,57.037,0.444,0.43

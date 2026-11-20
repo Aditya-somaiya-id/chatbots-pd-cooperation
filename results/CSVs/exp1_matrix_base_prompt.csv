@@ -1,0 +1,37 @@
+p1,p2,kind1,score1,score2,variant,defect_rate,norm_score,first_listed,joint_coop_post
+Defect,Defect,Scripted,50,50,points|J/F|std|plain,100.0,0.5,0.0,0.0
+Defect,Cooperate,Scripted,100,0,points|J/F|std|plain,100.0,1.0,0.0,0.0
+Defect,Defect Once,Scripted,95,5,points|J/F|std|plain,100.0,0.95,0.0,0.0
+Defect,Qwen-0.5B,Scripted,100,0,points|J/F|std|plain,100.0,1.0,0.0,0.0
+Defect,Qwen-1.5B,Scripted,55,45,points|J/F|std|plain,100.0,0.55,0.0,0.0
+Defect,Qwen-3B,Scripted,65,35,points|J/F|std|plain,100.0,0.65,0.0,0.0
+Cooperate,Defect,Scripted,0,100,points|J/F|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Cooperate,Scripted,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Defect Once,Scripted,72,82,points|J/F|std|plain,0.0,0.72,1.0,1.0
+Cooperate,Qwen-0.5B,Scripted,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Cooperate,Qwen-1.5B,Scripted,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Cooperate,Qwen-3B,Scripted,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Defect Once,Defect,Scripted,5,95,points|J/F|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Cooperate,Scripted,82,72,points|J/F|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Defect Once,Scripted,77,77,points|J/F|std|plain,10.0,0.77,0.9,1.0
+Defect Once,Qwen-0.5B,Scripted,74,74,points|J/F|std|plain,10.0,0.74,0.9,0.8888888888888888
+Defect Once,Qwen-1.5B,Scripted,10,90,points|J/F|std|plain,10.0,0.1,0.9,0.0
+Defect Once,Qwen-3B,Scripted,66,76,points|J/F|std|plain,10.0,0.66,0.9,0.7777777777777778
+Qwen-0.5B,Defect,LLMAgent,0,100,points|J/F|std|plain,0.0,0.0,1.0,0.0
+Qwen-0.5B,Cooperate,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-0.5B,Defect Once,LLMAgent,74,74,points|J/F|std|plain,10.0,0.74,0.9,0.8888888888888888
+Qwen-0.5B,Qwen-0.5B,LLMAgent,77,77,points|J/F|std|plain,10.0,0.77,0.9,0.8888888888888888
+Qwen-0.5B,Qwen-1.5B,LLMAgent,66,76,points|J/F|std|plain,10.0,0.66,0.9,0.6666666666666666
+Qwen-0.5B,Qwen-3B,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-1.5B,Defect,LLMAgent,45,55,points|J/F|std|plain,90.0,0.45,0.1,0.0
+Qwen-1.5B,Cooperate,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-1.5B,Defect Once,LLMAgent,90,10,points|J/F|std|plain,90.0,0.9,0.1,0.0
+Qwen-1.5B,Qwen-0.5B,LLMAgent,76,66,points|J/F|std|plain,20.0,0.76,0.8,0.6666666666666666
+Qwen-1.5B,Qwen-1.5B,LLMAgent,77,77,points|J/F|std|plain,10.0,0.77,0.9,0.8888888888888888
+Qwen-1.5B,Qwen-3B,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-3B,Defect,LLMAgent,35,65,points|J/F|std|plain,70.0,0.35,0.3,0.0
+Qwen-3B,Cooperate,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Qwen-3B,Defect Once,LLMAgent,76,66,points|J/F|std|plain,20.0,0.76,0.8,0.7777777777777778
+Qwen-3B,Qwen-0.5B,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-3B,Qwen-1.5B,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-3B,Qwen-3B,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0

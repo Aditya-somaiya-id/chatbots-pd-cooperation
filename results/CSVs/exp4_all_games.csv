@@ -1,0 +1,244 @@
+p1,p2,kind1,score1,score2,variant,defect_rate,norm_score,first_listed,joint_coop_post
+Defect,Defect,Scripted,50,50,points|J/F|std|plain,100.0,0.5,0.0,0.0
+Defect,Cooperate,Scripted,100,0,points|J/F|std|plain,100.0,1.0,0.0,0.0
+Defect,Defect Once,Scripted,95,5,points|J/F|std|plain,100.0,0.95,0.0,0.0
+Defect,Qwen-0.5B,Scripted,100,0,points|J/F|std|plain,100.0,1.0,0.0,0.0
+Defect,Qwen-1.5B,Scripted,55,45,points|J/F|std|plain,100.0,0.55,0.0,0.0
+Defect,Qwen-3B,Scripted,65,35,points|J/F|std|plain,100.0,0.65,0.0,0.0
+Defect,Qwen-0.5B +SCoT,Scripted,85,15,points|J/F|std|plain,100.0,0.85,0.0,0.0
+Defect,Qwen-1.5B +SCoT,Scripted,100,0,points|J/F|std|plain,100.0,1.0,0.0,0.0
+Defect,Qwen-3B +SCoT,Scripted,65,35,points|J/F|std|plain,100.0,0.65,0.0,0.0
+Cooperate,Defect,Scripted,0,100,points|J/F|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Cooperate,Scripted,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Defect Once,Scripted,72,82,points|J/F|std|plain,0.0,0.72,1.0,1.0
+Cooperate,Qwen-0.5B,Scripted,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Cooperate,Qwen-1.5B,Scripted,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Cooperate,Qwen-3B,Scripted,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Qwen-0.5B +SCoT,Scripted,48,88,points|J/F|std|plain,0.0,0.48,1.0,0.5555555555555556
+Cooperate,Qwen-1.5B +SCoT,Scripted,40,90,points|J/F|std|plain,0.0,0.4,1.0,0.4444444444444444
+Cooperate,Qwen-3B +SCoT,Scripted,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Defect Once,Defect,Scripted,5,95,points|J/F|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Cooperate,Scripted,82,72,points|J/F|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Defect Once,Scripted,77,77,points|J/F|std|plain,10.0,0.77,0.9,1.0
+Defect Once,Qwen-0.5B,Scripted,74,74,points|J/F|std|plain,10.0,0.74,0.9,0.8888888888888888
+Defect Once,Qwen-1.5B,Scripted,10,90,points|J/F|std|plain,10.0,0.1,0.9,0.0
+Defect Once,Qwen-3B,Scripted,66,76,points|J/F|std|plain,10.0,0.66,0.9,0.7777777777777778
+Defect Once,Qwen-0.5B +SCoT,Scripted,42,82,points|J/F|std|plain,10.0,0.42,0.9,0.4444444444444444
+Defect Once,Qwen-1.5B +SCoT,Scripted,82,72,points|J/F|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Qwen-3B +SCoT,Scripted,82,72,points|J/F|std|plain,10.0,0.82,0.9,1.0
+Qwen-0.5B,Defect,LLMAgent,0,100,points|J/F|std|plain,0.0,0.0,1.0,0.0
+Qwen-0.5B,Cooperate,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-0.5B,Defect Once,LLMAgent,74,74,points|J/F|std|plain,10.0,0.74,0.9,0.8888888888888888
+Qwen-0.5B,Qwen-0.5B,LLMAgent,77,77,points|J/F|std|plain,10.0,0.77,0.9,0.8888888888888888
+Qwen-0.5B,Qwen-1.5B,LLMAgent,66,76,points|J/F|std|plain,10.0,0.66,0.9,0.6666666666666666
+Qwen-0.5B,Qwen-3B,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-0.5B,Qwen-0.5B +SCoT,LLMAgent,53,83,points|J/F|std|plain,10.0,0.53,0.9,0.5555555555555556
+Qwen-0.5B,Qwen-1.5B +SCoT,LLMAgent,42,82,points|J/F|std|plain,10.0,0.42,0.9,0.3333333333333333
+Qwen-0.5B,Qwen-3B +SCoT,LLMAgent,74,74,points|J/F|std|plain,10.0,0.74,0.9,0.7777777777777778
+Qwen-1.5B,Defect,LLMAgent,45,55,points|J/F|std|plain,90.0,0.45,0.1,0.0
+Qwen-1.5B,Cooperate,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-1.5B,Defect Once,LLMAgent,90,10,points|J/F|std|plain,90.0,0.9,0.1,0.0
+Qwen-1.5B,Qwen-0.5B,LLMAgent,76,66,points|J/F|std|plain,20.0,0.76,0.8,0.6666666666666666
+Qwen-1.5B,Qwen-1.5B,LLMAgent,77,77,points|J/F|std|plain,10.0,0.77,0.9,0.8888888888888888
+Qwen-1.5B,Qwen-3B,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-1.5B,Qwen-0.5B +SCoT,LLMAgent,58,78,points|J/F|std|plain,20.0,0.58,0.8,0.5555555555555556
+Qwen-1.5B,Qwen-1.5B +SCoT,LLMAgent,66,46,points|J/F|std|plain,50.0,0.66,0.5,0.1111111111111111
+Qwen-1.5B,Qwen-3B +SCoT,LLMAgent,82,72,points|J/F|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-3B,Defect,LLMAgent,35,65,points|J/F|std|plain,70.0,0.35,0.3,0.0
+Qwen-3B,Cooperate,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Qwen-3B,Defect Once,LLMAgent,76,66,points|J/F|std|plain,20.0,0.76,0.8,0.7777777777777778
+Qwen-3B,Qwen-0.5B,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-3B,Qwen-1.5B,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-3B,Qwen-3B,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Qwen-3B,Qwen-0.5B +SCoT,LLMAgent,48,88,points|J/F|std|plain,0.0,0.48,1.0,0.5555555555555556
+Qwen-3B,Qwen-1.5B +SCoT,LLMAgent,40,90,points|J/F|std|plain,0.0,0.4,1.0,0.4444444444444444
+Qwen-3B,Qwen-3B +SCoT,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Qwen-0.5B +SCoT,Defect,LLMAgent,15,85,points|J/F|std|plain,30.0,0.15,0.7,0.0
+Qwen-0.5B +SCoT,Cooperate,LLMAgent,88,48,points|J/F|std|plain,40.0,0.88,0.6,0.5555555555555556
+Qwen-0.5B +SCoT,Defect Once,LLMAgent,82,42,points|J/F|std|plain,50.0,0.82,0.5,0.4444444444444444
+Qwen-0.5B +SCoT,Qwen-0.5B,LLMAgent,83,53,points|J/F|std|plain,40.0,0.83,0.6,0.5555555555555556
+Qwen-0.5B +SCoT,Qwen-1.5B,LLMAgent,78,58,points|J/F|std|plain,40.0,0.78,0.6,0.5555555555555556
+Qwen-0.5B +SCoT,Qwen-3B,LLMAgent,88,48,points|J/F|std|plain,40.0,0.88,0.6,0.5555555555555556
+Qwen-0.5B +SCoT,Qwen-0.5B +SCoT,LLMAgent,68,68,points|J/F|std|plain,40.0,0.68,0.6,0.5555555555555556
+Qwen-0.5B +SCoT,Qwen-1.5B +SCoT,LLMAgent,54,64,points|J/F|std|plain,40.0,0.54,0.6,0.2222222222222222
+Qwen-0.5B +SCoT,Qwen-3B +SCoT,LLMAgent,75,55,points|J/F|std|plain,40.0,0.75,0.6,0.4444444444444444
+Qwen-1.5B +SCoT,Defect,LLMAgent,0,100,points|J/F|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Cooperate,LLMAgent,90,40,points|J/F|std|plain,50.0,0.9,0.5,0.4444444444444444
+Qwen-1.5B +SCoT,Defect Once,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,1.0
+Qwen-1.5B +SCoT,Qwen-0.5B,LLMAgent,82,42,points|J/F|std|plain,50.0,0.82,0.5,0.3333333333333333
+Qwen-1.5B +SCoT,Qwen-1.5B,LLMAgent,46,66,points|J/F|std|plain,30.0,0.46,0.7,0.1111111111111111
+Qwen-1.5B +SCoT,Qwen-3B,LLMAgent,90,40,points|J/F|std|plain,50.0,0.9,0.5,0.4444444444444444
+Qwen-1.5B +SCoT,Qwen-0.5B +SCoT,LLMAgent,64,54,points|J/F|std|plain,50.0,0.64,0.5,0.2222222222222222
+Qwen-1.5B +SCoT,Qwen-1.5B +SCoT,LLMAgent,71,71,points|J/F|std|plain,30.0,0.71,0.7,0.6666666666666666
+Qwen-1.5B +SCoT,Qwen-3B +SCoT,LLMAgent,69,49,points|J/F|std|plain,50.0,0.69,0.5,0.2222222222222222
+Qwen-3B +SCoT,Defect,LLMAgent,35,65,points|J/F|std|plain,70.0,0.35,0.3,0.0
+Qwen-3B +SCoT,Cooperate,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Qwen-3B +SCoT,Defect Once,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,1.0
+Qwen-3B +SCoT,Qwen-0.5B,LLMAgent,74,74,points|J/F|std|plain,10.0,0.74,0.9,0.7777777777777778
+Qwen-3B +SCoT,Qwen-1.5B,LLMAgent,72,82,points|J/F|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-3B +SCoT,Qwen-3B,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Qwen-3B +SCoT,Qwen-0.5B +SCoT,LLMAgent,55,75,points|J/F|std|plain,20.0,0.55,0.8,0.4444444444444444
+Qwen-3B +SCoT,Qwen-1.5B +SCoT,LLMAgent,49,69,points|J/F|std|plain,30.0,0.49,0.7,0.2222222222222222
+Qwen-3B +SCoT,Qwen-3B +SCoT,LLMAgent,80,80,points|J/F|std|plain,0.0,0.8,1.0,1.0
+Defect,Defect,Scripted,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Defect,Cooperate,Scripted,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Defect,Defect Once,Scripted,95,5,dollars|X/Q|std|plain,100.0,0.95,0.0,0.0
+Defect,Qwen-0.5B,Scripted,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Defect,Qwen-1.5B,Scripted,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Defect,Qwen-3B,Scripted,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Defect,Qwen-0.5B +SCoT,Scripted,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Defect,Qwen-1.5B +SCoT,Scripted,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Defect,Qwen-3B +SCoT,Scripted,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Cooperate,Defect,Scripted,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Cooperate,Scripted,80,80,dollars|X/Q|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Defect Once,Scripted,72,82,dollars|X/Q|std|plain,0.0,0.72,1.0,1.0
+Cooperate,Qwen-0.5B,Scripted,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Qwen-1.5B,Scripted,72,82,dollars|X/Q|std|plain,0.0,0.72,1.0,0.8888888888888888
+Cooperate,Qwen-3B,Scripted,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Qwen-0.5B +SCoT,Scripted,8,98,dollars|X/Q|std|plain,0.0,0.08,1.0,0.0
+Cooperate,Qwen-1.5B +SCoT,Scripted,80,80,dollars|X/Q|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Qwen-3B +SCoT,Scripted,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Defect Once,Defect,Scripted,5,95,dollars|X/Q|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Cooperate,Scripted,82,72,dollars|X/Q|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Defect Once,Scripted,77,77,dollars|X/Q|std|plain,10.0,0.77,0.9,1.0
+Defect Once,Qwen-0.5B,Scripted,5,95,dollars|X/Q|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Qwen-1.5B,Scripted,10,90,dollars|X/Q|std|plain,10.0,0.1,0.9,0.0
+Defect Once,Qwen-3B,Scripted,61,81,dollars|X/Q|std|plain,10.0,0.61,0.9,0.7777777777777778
+Defect Once,Qwen-0.5B +SCoT,Scripted,10,90,dollars|X/Q|std|plain,10.0,0.1,0.9,0.0
+Defect Once,Qwen-1.5B +SCoT,Scripted,82,72,dollars|X/Q|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Qwen-3B +SCoT,Scripted,29,89,dollars|X/Q|std|plain,10.0,0.29,0.9,0.3333333333333333
+Qwen-0.5B,Defect,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Cooperate,LLMAgent,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Qwen-0.5B,Defect Once,LLMAgent,95,5,dollars|X/Q|std|plain,100.0,0.95,0.0,0.0
+Qwen-0.5B,Qwen-0.5B,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Qwen-1.5B,LLMAgent,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Qwen-0.5B,Qwen-3B,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Qwen-0.5B +SCoT,LLMAgent,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Qwen-0.5B,Qwen-1.5B +SCoT,LLMAgent,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Qwen-0.5B,Qwen-3B +SCoT,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-1.5B,Defect,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-1.5B,Cooperate,LLMAgent,82,72,dollars|X/Q|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-1.5B,Defect Once,LLMAgent,90,10,dollars|X/Q|std|plain,90.0,0.9,0.1,0.0
+Qwen-1.5B,Qwen-0.5B,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-1.5B,Qwen-1.5B,LLMAgent,77,77,dollars|X/Q|std|plain,10.0,0.77,0.9,0.8888888888888888
+Qwen-1.5B,Qwen-3B,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-1.5B,Qwen-0.5B +SCoT,LLMAgent,48,58,dollars|X/Q|std|plain,80.0,0.48,0.2,0.0
+Qwen-1.5B,Qwen-1.5B +SCoT,LLMAgent,82,72,dollars|X/Q|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-1.5B,Qwen-3B +SCoT,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-3B,Defect,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Cooperate,LLMAgent,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Qwen-3B,Defect Once,LLMAgent,81,61,dollars|X/Q|std|plain,30.0,0.81,0.7,0.7777777777777778
+Qwen-3B,Qwen-0.5B,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Qwen-1.5B,LLMAgent,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Qwen-3B,Qwen-3B,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Qwen-0.5B +SCoT,LLMAgent,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Qwen-3B,Qwen-1.5B +SCoT,LLMAgent,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Qwen-3B,Qwen-3B +SCoT,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B +SCoT,Defect,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-0.5B +SCoT,Cooperate,LLMAgent,98,8,dollars|X/Q|std|plain,90.0,0.98,0.1,0.0
+Qwen-0.5B +SCoT,Defect Once,LLMAgent,90,10,dollars|X/Q|std|plain,90.0,0.9,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-0.5B,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-1.5B,LLMAgent,58,48,dollars|X/Q|std|plain,90.0,0.58,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-3B,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-0.5B +SCoT,LLMAgent,53,53,dollars|X/Q|std|plain,90.0,0.53,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-1.5B +SCoT,LLMAgent,98,8,dollars|X/Q|std|plain,90.0,0.98,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-3B +SCoT,LLMAgent,45,55,dollars|X/Q|std|plain,90.0,0.45,0.1,0.0
+Qwen-1.5B +SCoT,Defect,LLMAgent,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Cooperate,LLMAgent,80,80,dollars|X/Q|std|plain,0.0,0.8,1.0,1.0
+Qwen-1.5B +SCoT,Defect Once,LLMAgent,72,82,dollars|X/Q|std|plain,0.0,0.72,1.0,1.0
+Qwen-1.5B +SCoT,Qwen-0.5B,LLMAgent,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Qwen-1.5B,LLMAgent,72,82,dollars|X/Q|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-1.5B +SCoT,Qwen-3B,LLMAgent,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Qwen-0.5B +SCoT,LLMAgent,8,98,dollars|X/Q|std|plain,0.0,0.08,1.0,0.0
+Qwen-1.5B +SCoT,Qwen-1.5B +SCoT,LLMAgent,80,80,dollars|X/Q|std|plain,0.0,0.8,1.0,1.0
+Qwen-1.5B +SCoT,Qwen-3B +SCoT,LLMAgent,0,100,dollars|X/Q|std|plain,0.0,0.0,1.0,0.0
+Qwen-3B +SCoT,Defect,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B +SCoT,Cooperate,LLMAgent,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Qwen-3B +SCoT,Defect Once,LLMAgent,89,29,dollars|X/Q|std|plain,70.0,0.89,0.3,0.3333333333333333
+Qwen-3B +SCoT,Qwen-0.5B,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B +SCoT,Qwen-1.5B,LLMAgent,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Qwen-3B +SCoT,Qwen-3B,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B +SCoT,Qwen-0.5B +SCoT,LLMAgent,55,45,dollars|X/Q|std|plain,100.0,0.55,0.0,0.0
+Qwen-3B +SCoT,Qwen-1.5B +SCoT,LLMAgent,100,0,dollars|X/Q|std|plain,100.0,1.0,0.0,0.0
+Qwen-3B +SCoT,Qwen-3B +SCoT,LLMAgent,50,50,dollars|X/Q|std|plain,100.0,0.5,0.0,0.0
+Defect,Defect,Scripted,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Defect,Cooperate,Scripted,100,0,coins|R/H|std|plain,100.0,1.0,0.0,0.0
+Defect,Defect Once,Scripted,95,5,coins|R/H|std|plain,100.0,0.95,0.0,0.0
+Defect,Qwen-0.5B,Scripted,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Defect,Qwen-1.5B,Scripted,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Defect,Qwen-3B,Scripted,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Defect,Qwen-0.5B +SCoT,Scripted,55,45,coins|R/H|std|plain,100.0,0.55,0.0,0.0
+Defect,Qwen-1.5B +SCoT,Scripted,100,0,coins|R/H|std|plain,100.0,1.0,0.0,0.0
+Defect,Qwen-3B +SCoT,Scripted,60,40,coins|R/H|std|plain,100.0,0.6,0.0,0.0
+Cooperate,Defect,Scripted,0,100,coins|R/H|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Cooperate,Scripted,80,80,coins|R/H|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Defect Once,Scripted,72,82,coins|R/H|std|plain,0.0,0.72,1.0,1.0
+Cooperate,Qwen-0.5B,Scripted,0,100,coins|R/H|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Qwen-1.5B,Scripted,0,100,coins|R/H|std|plain,0.0,0.0,1.0,0.0
+Cooperate,Qwen-3B,Scripted,56,86,coins|R/H|std|plain,0.0,0.56,1.0,0.7777777777777778
+Cooperate,Qwen-0.5B +SCoT,Scripted,8,98,coins|R/H|std|plain,0.0,0.08,1.0,0.1111111111111111
+Cooperate,Qwen-1.5B +SCoT,Scripted,80,80,coins|R/H|std|plain,0.0,0.8,1.0,1.0
+Cooperate,Qwen-3B +SCoT,Scripted,72,82,coins|R/H|std|plain,0.0,0.72,1.0,0.8888888888888888
+Defect Once,Defect,Scripted,5,95,coins|R/H|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Cooperate,Scripted,82,72,coins|R/H|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Defect Once,Scripted,77,77,coins|R/H|std|plain,10.0,0.77,0.9,1.0
+Defect Once,Qwen-0.5B,Scripted,5,95,coins|R/H|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Qwen-1.5B,Scripted,5,95,coins|R/H|std|plain,10.0,0.05,0.9,0.0
+Defect Once,Qwen-3B,Scripted,69,79,coins|R/H|std|plain,10.0,0.69,0.9,0.8888888888888888
+Defect Once,Qwen-0.5B +SCoT,Scripted,13,93,coins|R/H|std|plain,10.0,0.13,0.9,0.1111111111111111
+Defect Once,Qwen-1.5B +SCoT,Scripted,82,72,coins|R/H|std|plain,10.0,0.82,0.9,1.0
+Defect Once,Qwen-3B +SCoT,Scripted,10,90,coins|R/H|std|plain,10.0,0.1,0.9,0.0
+Qwen-0.5B,Defect,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Cooperate,LLMAgent,100,0,coins|R/H|std|plain,100.0,1.0,0.0,0.0
+Qwen-0.5B,Defect Once,LLMAgent,95,5,coins|R/H|std|plain,100.0,0.95,0.0,0.0
+Qwen-0.5B,Qwen-0.5B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Qwen-1.5B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Qwen-3B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-0.5B,Qwen-0.5B +SCoT,LLMAgent,55,45,coins|R/H|std|plain,100.0,0.55,0.0,0.0
+Qwen-0.5B,Qwen-1.5B +SCoT,LLMAgent,100,0,coins|R/H|std|plain,100.0,1.0,0.0,0.0
+Qwen-0.5B,Qwen-3B +SCoT,LLMAgent,60,40,coins|R/H|std|plain,100.0,0.6,0.0,0.0
+Qwen-1.5B,Defect,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-1.5B,Cooperate,LLMAgent,100,0,coins|R/H|std|plain,100.0,1.0,0.0,0.0
+Qwen-1.5B,Defect Once,LLMAgent,95,5,coins|R/H|std|plain,100.0,0.95,0.0,0.0
+Qwen-1.5B,Qwen-0.5B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-1.5B,Qwen-1.5B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-1.5B,Qwen-3B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-1.5B,Qwen-0.5B +SCoT,LLMAgent,55,45,coins|R/H|std|plain,100.0,0.55,0.0,0.0
+Qwen-1.5B,Qwen-1.5B +SCoT,LLMAgent,100,0,coins|R/H|std|plain,100.0,1.0,0.0,0.0
+Qwen-1.5B,Qwen-3B +SCoT,LLMAgent,60,40,coins|R/H|std|plain,100.0,0.6,0.0,0.0
+Qwen-3B,Defect,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Cooperate,LLMAgent,86,56,coins|R/H|std|plain,30.0,0.86,0.7,0.7777777777777778
+Qwen-3B,Defect Once,LLMAgent,79,69,coins|R/H|std|plain,20.0,0.79,0.8,0.8888888888888888
+Qwen-3B,Qwen-0.5B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Qwen-1.5B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Qwen-3B,LLMAgent,50,50,coins|R/H|std|plain,100.0,0.5,0.0,0.0
+Qwen-3B,Qwen-0.5B +SCoT,LLMAgent,30,70,coins|R/H|std|plain,50.0,0.3,0.5,0.0
+Qwen-3B,Qwen-1.5B +SCoT,LLMAgent,86,56,coins|R/H|std|plain,30.0,0.86,0.7,0.7777777777777778
+Qwen-3B,Qwen-3B +SCoT,LLMAgent,45,55,coins|R/H|std|plain,80.0,0.45,0.2,0.0
+Qwen-0.5B +SCoT,Defect,LLMAgent,45,55,coins|R/H|std|plain,90.0,0.45,0.1,0.0
+Qwen-0.5B +SCoT,Cooperate,LLMAgent,98,8,coins|R/H|std|plain,90.0,0.98,0.1,0.1111111111111111
+Qwen-0.5B +SCoT,Defect Once,LLMAgent,93,13,coins|R/H|std|plain,90.0,0.93,0.1,0.1111111111111111
+Qwen-0.5B +SCoT,Qwen-0.5B,LLMAgent,45,55,coins|R/H|std|plain,90.0,0.45,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-1.5B,LLMAgent,45,55,coins|R/H|std|plain,90.0,0.45,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-3B,LLMAgent,70,30,coins|R/H|std|plain,90.0,0.7,0.1,0.0
+Qwen-0.5B +SCoT,Qwen-0.5B +SCoT,LLMAgent,53,53,coins|R/H|std|plain,90.0,0.53,0.1,0.1111111111111111
+Qwen-0.5B +SCoT,Qwen-1.5B +SCoT,LLMAgent,98,8,coins|R/H|std|plain,90.0,0.98,0.1,0.1111111111111111
+Qwen-0.5B +SCoT,Qwen-3B +SCoT,LLMAgent,50,50,coins|R/H|std|plain,90.0,0.5,0.1,0.0
+Qwen-1.5B +SCoT,Defect,LLMAgent,0,100,coins|R/H|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Cooperate,LLMAgent,80,80,coins|R/H|std|plain,0.0,0.8,1.0,1.0
+Qwen-1.5B +SCoT,Defect Once,LLMAgent,72,82,coins|R/H|std|plain,0.0,0.72,1.0,1.0
+Qwen-1.5B +SCoT,Qwen-0.5B,LLMAgent,0,100,coins|R/H|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Qwen-1.5B,LLMAgent,0,100,coins|R/H|std|plain,0.0,0.0,1.0,0.0
+Qwen-1.5B +SCoT,Qwen-3B,LLMAgent,56,86,coins|R/H|std|plain,0.0,0.56,1.0,0.7777777777777778
+Qwen-1.5B +SCoT,Qwen-0.5B +SCoT,LLMAgent,8,98,coins|R/H|std|plain,0.0,0.08,1.0,0.1111111111111111
+Qwen-1.5B +SCoT,Qwen-1.5B +SCoT,LLMAgent,80,80,coins|R/H|std|plain,0.0,0.8,1.0,1.0
+Qwen-1.5B +SCoT,Qwen-3B +SCoT,LLMAgent,72,82,coins|R/H|std|plain,0.0,0.72,1.0,0.8888888888888888
+Qwen-3B +SCoT,Defect,LLMAgent,40,60,coins|R/H|std|plain,80.0,0.4,0.2,0.0
+Qwen-3B +SCoT,Cooperate,LLMAgent,82,72,coins|R/H|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-3B +SCoT,Defect Once,LLMAgent,90,10,coins|R/H|std|plain,90.0,0.9,0.1,0.0
+Qwen-3B +SCoT,Qwen-0.5B,LLMAgent,40,60,coins|R/H|std|plain,80.0,0.4,0.2,0.0
+Qwen-3B +SCoT,Qwen-1.5B,LLMAgent,40,60,coins|R/H|std|plain,80.0,0.4,0.2,0.0
+Qwen-3B +SCoT,Qwen-3B,LLMAgent,55,45,coins|R/H|std|plain,90.0,0.55,0.1,0.0
+Qwen-3B +SCoT,Qwen-0.5B +SCoT,LLMAgent,50,50,coins|R/H|std|plain,90.0,0.5,0.1,0.0
+Qwen-3B +SCoT,Qwen-1.5B +SCoT,LLMAgent,82,72,coins|R/H|std|plain,10.0,0.82,0.9,0.8888888888888888
+Qwen-3B +SCoT,Qwen-3B +SCoT,LLMAgent,77,77,coins|R/H|std|plain,10.0,0.77,0.9,0.8888888888888888
