@@ -3,13 +3,6 @@
 NLP Mini Project (IA1) | M.Tech AI&DS, Department of Information Technology
 K. J. Somaiya College of Engineering, Vidyavihar, Mumbai, 2026-27
 
-**Group members**
-
-| Name | Roll No. | Group No. |
-|---|---|---|
-| Jignesh Chavan | `16034426006` | `8` |
-| Aditya Shinde | `16034426011` | `8` |
-
 **Paper (Overleaf):** https://www.overleaf.com/read/wsfzgspkhgmr#878ac3
 
 ---
